@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} */
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li{
+  margin-bottom:10px;
+}
+
+.circle-image {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.glass{
+  background: white;
+  height: 90%;
+  width: 90%;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  border-radius: 2rem;
+  display: flex;
+  position: absolute;
+}
+
+.navigation{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  border-radius: 2rem;
+}
+
+.admin{
+  height: 100px;
+  background: linear-gradient(to right top, rgba(255, 255, 255, 0.3),rgba(255,255,255,0.3));
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  box-shadow: 0 2px 2px -2px gray;
+  display: flex;
+}
+
+.admin .circle-image{
+  margin-top: 7px;
+  margin-left: 7px;
+  border : 2px solid #a08484;
+}
+
+.admin .util-admin{
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 17px;
+  color: #6e6f79;
+}
+
+.util-admin a{
+  text-decoration: none;
+  color: #3f85be;
+  font-size: 15px;
+}
+
+.util-admin h4{
+  font-size: 15px;
+}
+
+.nav-item{
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+
+.nav-item a{
+  color: #6e6f79;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.content{
+  flex: 4;
+}
+/* 
+.modal-bg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visbility 0s, opacity 0.5s;
+}
+
+.bg-active{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal{
+  position: relative;
+  background-color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2rem;
+  overflow:auto;
+}
+
+.modal::-webkit-scrollbar{
+  display: none;
+}
+
+
+.modal form{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal form button{
+  padding: 10px 30px;
+  background: linear-gradient(to top, #9fe6a0, #a5e1ad);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 0.5rem;
+}
+
+.modal-close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal form label{
+  margin-top: 20px;
+}
+
+.modal form input, .modal form textarea{
+  margin-top: 10px;
+}
+
+.modal form h2{
+  margin-top: 20px;
+}
+
+.modal form h2, .modal form label, .modal form input, .modal form button, .modal form textarea{
+  margin-left: 40px;
+  margin-right: 40px;
+} */
+
+.horizontal-checkout{
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.leftbody{
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.rightbody{
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+

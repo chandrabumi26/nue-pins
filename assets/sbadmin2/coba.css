@@ -1,0 +1,12 @@
+.bg-sidebar {
+  background-color: #00416d;
+  background-image: linear-gradient(180deg, #00416d 10%, #00416d 100%);
+  background-size: cover;
+}
+
+.btn-search {
+  color: #fff;
+  background-color: #ffc93c;
+  border-color: #ffc93c;
+}
+

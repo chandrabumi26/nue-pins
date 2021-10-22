@@ -1,0 +1,579 @@
+/* Background */
+
+.bg-bt-confirm{
+	background:#FA8072;
+}
+.bg-b{
+	background:#fa877f;
+}
+.bg-nue{
+	background:#ffd3b4;
+}
+.bg-login-imagenue {
+  background: url("https://i.ibb.co/mhH2J7V/Screenshot-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-register-imagenue {
+  background: url("https://i.ibb.co/bbMdHHT/Screenshot-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-admin{
+  background: url('fashe/images/adminbackground.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-a {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.center-item{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.center-item h1{
+  position: relative;
+  color: #f0f0f0;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:3vw;
+}
+
+/* Button */
+/* Align */
+.button-md-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Design */
+.btn-a {
+	line-height: 40px;
+	width: 100%;
+	color:black;
+	display: inline-block;
+	padding: 0 25px;
+	cursor: pointer;
+	font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+	color: #fff;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+}
+.btn-a:hover {
+  background-color: white;
+  border: 1px solid #fa877f;
+  color: black;
+}
+
+.btn-bt-confirm {
+	line-height: 40px;
+	width: 50%;
+	color:black;
+	display: inline-block;
+	padding: 0 25px;
+	cursor: pointer;
+	font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+	color: #fff;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  
+/* .btn-bt-confirm:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+} */
+/* Notification */
+.salah{
+  color:#ec0101;
+}
+/* Form Group */
+.form-control-a{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control-a input{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+  background: linear-gradient(silver, silver) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.form-control-a select{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+  background: linear-gradient(silver, silver) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.form-control-a textarea{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+  background: linear-gradient(silver, silver) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.form-control-a.scd input{
+  border-color: #2ecc71;
+}
+
+.form-control-a.scd i.fa-check-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control-a.failure input{
+  border-color: #e74c3c;
+}
+
+.form-control-a.failure i.fa-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control-a i{
+  visibility: hidden;
+  position: absolute;
+  top: 13px;
+  right: 20px;
+}
+.form-control-a small{
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+.form-control-a.failure small{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-group-a {
+  margin-bottom: 0;
+}
+
+.roy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Checkbox */
+.custom-control-input-a {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 1rem;
+  height: 1.25rem;
+  opacity: 0;
+}
+
+.custom-control-input-a:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #fa877f;
+  background-color: #fa877f;
+}
+
+.custom-checkbox-a .custom-control-label::before {
+  border-radius: 0.35rem;
+}
+
+.custom-checkbox-a .custom-control-input-a:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+}
+
+.custom-checkbox-a .custom-control-input:indeterminate ~ .custom-control-label::before {
+  border-color: #4e73df;
+  background-color: #4e73df;
+}
+
+.custom-checkbox-a .custom-control-input-a:indeterminate ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
+}
+
+.custom-checkbox-a .custom-control-input-a:disabled:checked ~ .custom-control-label::before {
+  background-color: rgba(78, 115, 223, 0.5);
+}
+
+.custom-checkbox-a .custom-control-input-a:disabled:indeterminate ~ .custom-control-label::before {
+  background-color: rgba(78, 115, 223, 0.5);
+}
+
+form.user .custom-checkbox-a.small label {
+  line-height: 1.5rem;
+}
+
+@media (max-width : 1920px){
+  .img-detail{
+    width: 500px;
+  }
+}
+@media (max-width:1370px){ 
+  .img-detail{
+    width: 350px;
+  }
+}
+
+/* Modal */
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+
+.modal-content-a{
+  width: 500px;
+  position: absolute;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+.modal-content-detail{
+  width: 100vh;
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+
+.modal-content-a h3{
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #FA8072;
+}
+
+.modal-content-a .modal-header{
+  background-color: #FA8072;
+}
+
+.circle-image {
+  position: relative;
+  overflow: hidden;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  padding-bottom: 30px;
+}
+
+.circle-image img{
+  width: 200px;
+  height: 200px;
+}
+.modal-body .hr{
+  margin-top: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-control{
+  border: 1px solid white;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.form-control input{
+  padding-bottom: 10px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  font-size: 13px;
+  background: linear-gradient(silver, silver) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.form-control.scd input{
+  border-color: #2ecc71;
+}
+
+.form-control.scd i.fa-check-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.failure input{
+  border-color: #e74c3c;
+}
+
+.form-control.failure i.fa-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control i{
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.form-control small{
+  visibility: hidden;
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  left: 15px;
+}
+
+.form-control.failure small{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.text-center a{
+  margin-top: -20px;
+  padding-top: -30px;
+  cursor: pointer;
+}
+
+.text-center h4{
+  color: #FA8072;
+  padding-bottom: 50px;
+}
+
+.form-control-admin{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control-admin input{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.horizontal-checkout{
+  display: flex;
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+}
+
+.leftbody{
+  width: 50%;
+  min-height: 50vh;
+  
+}
+
+.rightbody{
+  width: 50%;
+  height: 100vh;
+  
+}
+
+.leftbody h4{
+  margin-left: 20px;
+}
+
+.box-checkout{
+  min-height: 100px;
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+
+.box-checkout-spacing{
+  height: 50px;
+}
+
+.box-status{
+  margin-top: 50px;
+  min-height: 40vh;
+  width: 100%;
+  border: 1px solid silver;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.status-header{
+  width: 100%;
+  max-height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-items{
+  min-width: 50px;
+  padding-right: 50px;
+}
+
+.header-item-left{
+  min-width: 50px;
+  padding-right: 50px;
+  align-items: center;
+  display: flex ;
+}
+
+.header-item-right{
+  min-width: 50px;
+  display: flex;
+}
+
+.status-body{
+  width: 100%;
+  height: 85%;
+}
+
+.body-row{
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.body-row img{
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+.body-item{
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.body-item-produk{
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 200px;
+  width: 300px;
+}
+
+.delivery-item{
+  width: 100%;
+  height: 70px;
+  border: 1px solid silver;
+}
+
+.status-pemesanan-item{
+  margin-top: 5px;
+  width: 100%;
+  height: 80px;
+  border: 1px solid silver;
+}
+
+.thxpage{
+  height: 50vh;
+  width: 100%;
+  
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.thxpage h1{
+  color: #FA8072;
+  text-align: center;
+  font-family: Poppins-Bold;
+	font-size: 50px;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.thxpage img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thxpage h5{
+  text-align: center;
+}
+.thxpage p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.thxpage a{
+  text-align: center;
+  cursor: pointer;
+  text-decoration: crimson;
+  color: #4e73df;
+}
+
+.thxpage .btn-a{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.noitem-status{
+  width: 100%;
+  min-height: 50px;
+  background-color: silver;
+  margin-top: 50px;
+}
+
+.noitem-status h5{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.horizontal-dashboard{
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+}
+
+
+
+
+
+
